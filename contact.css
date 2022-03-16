@@ -1,0 +1,269 @@
+body {
+  margin:0px;
+  padding:0px;
+}
+.header{
+  height:80px;
+  margin:10px;
+}
+nav ul li{
+  list-style-type:none;
+  display:inline-block;
+  padding:20px;
+}
+ul li a{
+  color:#fff;
+  letter-spacing:0.1em;
+}
+ul li a:hover{
+  color:#ffd358;
+  text-decoration: underline;
+}
+.menu li{
+  float: left;
+  padding: 35px;
+}
+.menu li a{
+  text-decoration:none;
+}
+form{
+  padding: 35px;
+  text-align: right;
+}
+input[type="search"]{
+  font-size: 17px;
+}
+nav{
+height: 49px;
+background: black;
+}
+.inputS{
+float: right;
+margin: 12px;
+}
+.activeLink{
+color: #000 !important;
+padding: 8px;
+box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
+text-decoration: underline;
+background-color: white;
+}
+.texteHome{
+text-align: center;
+color: white;
+margin-top: 80px;
+padding: 20px;
+position: absolute;
+}
+
+.deco{
+display: flex;
+margin-top: 20px;
+margin-left: 20px;
+}
+.ville{
+width: 30%;
+height: 300px;
+margin-top: 20px;
+margin-left: 20px;
+box-shadow: 1px 1px 2px 2px #747cdf;
+background-color: white;
+}
+
+.imgback{
+background-image: url('Paris\ ville.jpg');
+height: 200px;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.imgturk{
+background-image: url('istanbul\ ville.jpg');
+height: 200px;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.imgbali{
+background-image: url('Bali\ ville.jpg');
+height: 200px;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.imgcap{
+background-image: url('cap.jpg');
+height: 200px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.imgdubai{
+background-image: url('dubai.jpg');
+height: 200px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+.voir{
+float: right;
+margin-right: 10px;
+height: 30px;
+background-color: #454488;
+border-radius: 12px;
+margin-top: -10px;
+
+}
+h2{
+margin-top: -2px;
+margin-left: 12px;
+}
+
+img{ 
+width: 368px;
+height: 229px;
+box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
+
+}
+.voir{
+float: right;
+margin-right: 10px;
+height: 30px;
+background-color: white;
+color: #000;
+border-radius: 12px;
+margin-top: -10px;
+
+}
+table{
+  position: relative;
+  padding: 12px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: #000;
+}
+.contactform{
+  position: relative;
+  padding: 2px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: #000;
+  height: 530px;
+
+}
+p{
+  color: white;
+  color: white;
+  text-align: justify;
+  width: 414px;
+  padding-right: 20px;
+}
+h2{
+  color: white;
+}
+marquee{
+ 
+color:#eabb47fa ;
+font-size: 20px;
+margin-top: 12px;
+}
+.défilement{
+  width: 100%;
+  height: 60px;
+  background-color:  black;
+
+}
+
+form {
+  padding: 30px;
+  border-radius: 10px;
+}
+form h1 {
+  font-size: 20px;
+  color: white;
+}
+form .separation {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+form .corps-formulaire {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+form .corps-formulaire .groupe {
+  position: relative; /* Pour mettre positionner l’élément dans le flux normal de la page */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+form .corps-formulaire .gauche .groupe input {
+  margin-top: 5px;
+  padding: 10px 5px 10px 30px;
+  border: 1px solid #c9c9c9;
+  outline-color: #000;
+  border-radius: 5px;
+  box-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 10px #fff;
+
+}
+form .corps-formulaire .gauche .groupe i {
+  position: absolute; /* positionné par rapport à son parent le plus proche positionné */
+  left: 0;
+  top: 25px;
+  padding: 9px 8px;
+  color: #000;
+}
+form .corps-formulaire .droite {
+  margin-left: 40px;
+}
+form .corps-formulaire .droite .groupe {
+  height: 100%;
+}
+form .corps-formulaire .droite .groupe textarea {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 2px solid #000;
+  outline: none;
+  border-radius: 5px;
+  resize: none;
+  height: 72%;
+}
+label{
+  color: white;
+  float: right;
+
+}
+form .pied-formulaire button {
+  margin-top: 10px;
+  background-color: #fff;
+  color: black;
+  font-size: 15px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+form .pied-formulaire button:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 920px) {
+  form .corps-formulaire .droite {
+    margin-left: 0px;
+  }
+}
+.imageCarte{
+  background-image: url('carte1.jpg');
+}
+
